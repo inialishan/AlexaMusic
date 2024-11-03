@@ -64,8 +64,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=f"☀ ᴢᴏʏᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ☀",
-                url=f"https://t.me/zoyaxmusic_bot"),
+                text=f"ᴢᴏʏᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", url=f"https://t.me/zoyaxmusic_bot"),
             )
         ],
     ]
