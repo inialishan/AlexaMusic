@@ -19,7 +19,6 @@ from AlexaMusic import app
 
 
 def start_pannel(_):
-def start_pannel(_):
     buttons = [
         [
             InlineKeyboardButton(
