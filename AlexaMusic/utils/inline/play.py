@@ -60,7 +60,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="ʀᴇᴘᴏʀᴛ", url=f"https://t.me/alishanxbotz_chat"),
+            InlineKeyboardButton(text="ʀᴇᴘᴏʀᴛ", url=f"https://t.me/+AWnpe9AzOqEwYTFl"),
         ],
         [
             InlineKeyboardButton(
@@ -95,7 +95,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="ʀᴇᴘᴏʀᴛ", url=f"https://t.me/alishanxbotz_chat"),
+            InlineKeyboardButton(text="ʀᴇᴘᴏʀᴛ", url=f"https://t.me/+AWnpe9AzOqEwYTFl"),
         ],
     ]
     return buttons
