@@ -1,5 +1,5 @@
 import random
-from pyrogram import Client, filters
+from pyrogram import app, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from config import LOG_GROUP_ID
 from AlexaMusic import app
