@@ -280,7 +280,10 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "Anya"]))
 async def alive(client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/125f531d44a9999290cac.jpg",
+        photo = getenv(
+    "photo",
+    "assets/start.png",
+        )
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\nʜᴇʟʟᴏ, ᴀɴʏᴀ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n\nᴏᴡɴᴇʀ    : [ɪɴɪᴀʟɪꜱʜᴀɴ](https://t.me/inialishan)\nᴜᴘᴅᴀᴛᴇs › : [ᴀʟɪꜱʜᴀɴxʙᴏᴛᴢ](https://t.me/alishanxbotz)\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴀꜱᴋ ᴏɴ ʀᴇᴘᴏʀᴛ ɢʀᴏᴜᴘ [ʀᴇᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/alishanxbotz_chat) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʀᴇᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/alishanxbotz_chat")]]
